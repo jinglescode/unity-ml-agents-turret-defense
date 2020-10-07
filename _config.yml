@@ -1,1 +1,23 @@
-theme: jekyll-theme-cayman
+title:               Reinforcement Learning on Unity Machine Learning Agents Toolkit
+description:         "A reinforcement learning agent playing as the turret, where its goal is to allow ten friendly units to enter the base, and loses if an enemy unit has entered the base or if two friendly units were shot."
+url:                 https://jinglescode.github.io/unity-ml-agents-turret-defense/
+baseurl:             '/unity-ml-agents-turret-defense'
+permalink:           pretty
+
+author:
+  name:              Khok Hong Jing
+  url:               https://jinglescode.github.io/
+  email:             jinglescode@gmail.com
+
+defaults:
+  - scope:
+      path: "*"
+    values:
+      layout: default
+
+github_link: https://github.com/jinglescode/unity-ml-agents-turret-defense
+
+google_analytics_id: UA-49548145-2
+
+sass:
+    sass_dir: ./public/sass
