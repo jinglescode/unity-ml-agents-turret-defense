@@ -27,7 +27,7 @@ This scenario is particularly important as it proves that the agent was able to 
 
 Watch a snippet of the gameplay, might take awhile to load:
 
-![easy](https://user-images.githubusercontent.com/1694368/95071905-f84a8e80-073c-11eb-96a4-b448744e7b19.gif)
+![easy](public/img/easy-scenario.gif)
 
 #### Normal scenario
 
@@ -37,7 +37,7 @@ In most cases, where the agent failed, the enemy is behind a friendly unit, and 
 
 Watch a snippet of the gameplay, might take awhile to load:
 
-![norm](https://user-images.githubusercontent.com/1694368/95071927-026c8d00-073d-11eb-9cc7-866b45f8a15f.gif)
+![norm](public/img/normal-scenario.gif)
 
 #### Advanced scenario
 
@@ -45,7 +45,7 @@ As in our design, enemy units are already moving faster than friendly units, wit
 
 Watch a snippet of the gameplay, might take awhile to load:
 
-![hard](https://user-images.githubusercontent.com/1694368/95071980-17492080-073d-11eb-9380-49bc7396f9af.gif)
+![hard](public/img/advanced-scenario.gif)
 
 
 #### Advanced scenario with power-ups
@@ -54,4 +54,4 @@ In this scenario, we are interested in seeing the effects on power-ups to see if
 
 Watch a snippet of the gameplay, might take awhile to load:
 
-![hard-powerup](https://user-images.githubusercontent.com/1694368/95072010-2334e280-073d-11eb-9e6b-b257880106a1.gif)
+![hard-powerup](public/img/advanced-scenario-power-ups.gif)

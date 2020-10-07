@@ -4,29 +4,48 @@
   <!-- Meta -->
   <meta charset="utf-8">
 
-  <title>Deep Multi-Task Learning for SSVEP Detection and Visual Response Mapping</title>
+  <title>Reinforcement Learning on Unity Machine Learning Agents Toolkit | Khok Hong Jing</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta content="yes" name="apple-mobile-web-app-capable">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
   <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="Deep Multi-Task Learning for SSVEP Detection and Visual Response Mapping - Using multi-task learning to efficiently captures signals simultaneously from the fovea and the neighboring targets in the peripheral vision, generating a visual response map. A calibration-free user-independent solution, desirable for clinical diagnostics. A stepping stone for an objective assessment of glaucoma patients' visual field." href="http://localhost:4000/feed.xml">
-  <link rel="alternate" type="application/atom+xml" title="Deep Multi-Task Learning for SSVEP Detection and Visual Response Mapping - Using multi-task learning to efficiently captures signals simultaneously from the fovea and the neighboring targets in the peripheral vision, generating a visual response map. A calibration-free user-independent solution, desirable for clinical diagnostics. A stepping stone for an objective assessment of glaucoma patients' visual field." href="http://localhost:4000/atom.xml">
+  <!-- <link rel="alternate" type="application/rss+xml" title="Reinforcement Learning on Unity Machine Learning Agents Toolkit - A reinforcement learning agent playing as the turret, where its goal is to allow ten friendly units to enter the base, and loses if an enemy unit has entered the base or if two friendly units were shot." href="http://localhost:4000/feed.xml">
+  <link rel="alternate" type="application/atom+xml" title="Reinforcement Learning on Unity Machine Learning Agents Toolkit - A reinforcement learning agent playing as the turret, where its goal is to allow ten friendly units to enter the base, and loses if an enemy unit has entered the base or if two friendly units were shot." href="http://localhost:4000/atom.xml"> -->
 
   <!-- Favicons -->
-  <link rel="icon" href="http://localhost:4000/img/favicon.png">
+  <!-- <link rel="icon" href="http://localhost:4000/img/favicon.png"> -->
+  <link rel="icon" type="image/png" href="https://jinglescode.github.io/assets/img/favicon.png" />
 
   <!-- Fonts -->
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,400italic,700|Merriweather:400,300,300italic,400italic,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,400italic,700|Merriweather:400,300,300italic,400italic,700' rel='stylesheet' type='text/css'/>
 
   <script defer src="https://use.fontawesome.com/releases/v5.12.1/js/all.js"></script>
+
+  <meta name="generator" content="Jekyll v3.9.0" />
+  <meta property="og:title" content="Reinforcement Learning on Unity Machine Learning Agents Toolkit" />
+  <meta name="author" content="Khok Hong Jing" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="description" content="A reinforcement learning agent playing as the turret, where its goal is to allow ten friendly units to enter the base, and loses if an enemy unit has entered the base or if two friendly units were shot." />
+  <meta property="og:description" content="A reinforcement learning agent playing as the turret, where its goal is to allow ten friendly units to enter the base, and loses if an enemy unit has entered the base or if two friendly units were shot." />
+  <link rel="canonical" href="http://localhost:4000" />
+  <meta property="og:url" content="http://localhost:4000" />
+  <meta property="og:site_name" content="Khok Hong Jing" />
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49548145-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-49548145-2');
+  </script>
 
   </head>
 
   <!-- Styles -->
-  <link rel="stylesheet" href="/ssvep-multi-task-learning/public/css/animate.min.css">
-  <link rel="stylesheet" href="/ssvep-multi-task-learning/public/css/style.css">
+  <link rel="stylesheet" href="/unity-ml-agents-turret-defense/public/css/animate.min.css"/>
+  <link rel="stylesheet" href="/unity-ml-agents-turret-defense/public/css/style.css"/>
 
 </head>
 <body class="">
@@ -39,24 +58,24 @@
     <div class="col-md-12">
       <div class="hero-container">
         <div class="hero-content">
-          <h1 class="text-center">Deep Multi-Task Learning for SSVEP Detection and Visual Response Mapping</h1>
+          <h1 class="text-center">Reinforcement Learning on Unity Machine Learning Agents Toolkit</h1>
 
           <p class="text-center">
-            Hong Jing Khok, Victor Teck Chang Koh, Cuntai Guan
+            Hong Jing Khok
           </p>
 
           <div class="hero-buttons">
-            <a href=""
+            <a href="https://github.com/jinglescode/unity-ml-agents-turret-defense/blob/master/report.pdf"
               ><button class="btn btn-default btn-lg">
                 <i class="far fa-file-alt fa-lg" style="margin-right: 10px"></i
-                >Paper
+                >Report
               </button></a
             >
 
-            <a href="https://github.com/jinglescode/ssvep-multi-task-learning"
+            <a href="https://github.com/jinglescode/unity-ml-agents-turret-defense/tree/ml-agents"
               ><button class="btn btn-default btn-lg">
                 <i class="fab fa-github fa-lg" style="margin-right: 10px"></i
-                >Github
+                >Codes
               </button></a
             >
 
@@ -66,6 +85,7 @@
                 >Medium
               </button></a
             > -->
+
           </div>
         </div>
       </div>
@@ -78,59 +98,81 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <p>Using multi-task learning to efficiently captures signals simultaneously from the fovea and the neighboring targets in the peripheral vision, generating a visual response map. A calibration-free user-independent solution, desirable for clinical diagnostics. A stepping stone for an objective assessment of glaucoma patients’ visual field.</p>
+                    <p>This is a report for an assignment for the course, Artificial Intelligence in Game Design (DM6127). This report will describe the mechanics of the game and its design and present the thought process of designing a reinforcement learning agent capable of playing this game. We explore scenarios on various difficulties and compare our agent’s performance. Iteratively, we developed and evaluated each hypothesis; and recorded its results.</p>
 
-<p><img src="https://user-images.githubusercontent.com/1694368/91680983-9caa4580-eb7f-11ea-8bfd-50e0705c141d.jpg" alt="figures-main-idea-big" /></p>
+<p>Our goal is to build a turret game where the player can shoot enemy units while allowing friendly units to enter. We will train a reinforcement learning agent to play as the turret, where its goal is to allow ten friendly units to enter the base, and loses if an enemy unit has entered the base or if two friendly units were shot.</p>
 
-<h2 id="abstract">Abstract</h2>
+<h2 id="requirements">Requirements</h2>
 
-<p>Glaucoma is an eye disease that occurs without the onset of symptoms at initial, and late diagnosis results in irreversible degeneration of retinal ganglion cells. Standard automated perimetry is the gold standard for assessing glaucoma; however, the examination is subjective, where responses can fluctuate each time the test is performed, significantly confounding the test’s interpretation. In this study, we present our approach that aims to provide a rapid point-of-care diagnostics for glaucoma patients by eliminating the cognitive aspect in existing visual field assessment. Unlike existing methods that mostly report the foveal target detection’s accuracy, we employed a multi-task learning architecture that efficiently captures signals simultaneously from the fovea and the neighboring targets in the peripheral vision, generating a visual response map. Furthermore, we designed a multi-task learning module that learns multiple tasks in parallel efficiently. We evaluated our model classification on a 40-classes dataset, with yields 92% and 95% in accuracy and F1 score, respectively. Our model is able to perform on a calibration-free user-independent scenario, which is desirable for clinical diagnostics. Our proposed approach could be a stepping stone for an objective assessment of glaucoma patients’ visual field.</p>
-
-<h2 id="results">Results</h2>
-
-<p>Compare our model’s classification accuracy against against CCA-based methods. At 1-second data length, CCA, <a href="https://iopscience.iop.org/article/10.1088/1741-2560/12/4/046008/meta">FBCCA</a>, and <a href="https://www.sciencedirect.com/science/article/pii/S105381191200852X">TRCA</a> yielded approximately 59%, 72%, and 88%, respectively. Using our proposed method, we can identify the foveal’s target frequency effectively. Our model’s average cross-validation accuracy for each subject is compared against other methods are as shown.</p>
-
-<p><img src="https://user-images.githubusercontent.com/1694368/92562604-d29aa880-f2a8-11ea-9d4d-9d99236e88d7.png" alt="figures-acc-by-subjects" /></p>
-
-<p>We used the MTL approach to learn all 40-tasks, thus enabling a unified system to predict all target frequencies simultaneously. As such, this enables us to visualize what the user has seen with a visual response map. We selected 6-targets that are located around the center of the screen as shown. This is the region of interest for visual field assessment in our future work. We explored further on the models’ ability to diagnose users who are not experienced in SSVEP-based BCIs. Specifically, we trained our model with the first eight participants from the dataset and validated the remaining 27 subjects. Each map is the average response of the 27 subjects for a target frequency: a darker shade denotes a stronger signal being detected. As the subjects recruited in the HS-SSVEP dataset have healthy eyesight and considering that all the stimuli are flickering simultaneously in a visual spelling task, expected results will be the intense signal concentration at the target frequency.</p>
-
-<p><img src="https://user-images.githubusercontent.com/1694368/91679148-10495400-eb7a-11ea-8f77-27a133203dd0.png" alt="figures-test_visuals" /></p>
-
-<h2 id="model">Model</h2>
-
-<p>The network is composed of four convolution blocks and one convolution layer. Each convolution block consists of a convolution layer, a batch normalization, and an exponential linear unit. The fifth and final convolution layer is a multi-task learning block, where it learns to differentiate multiple SSVEP target frequencies.</p>
-
-<p><img src="https://user-images.githubusercontent.com/1694368/91679200-2ce58c00-eb7a-11ea-82a3-1df6ef6aee24.png" alt="figures-model" /></p>
-
-<p>We designed an MTL block that performs convolutions by groups, By defining t groups, we are essentially performing separate convolutions within a single convolution layer. This allows us to use the same model architecture and scale to any number of tasks effectively. We expanded the output from previous convolution block by concatenation and employ a group-wise convolution to split the input into different groups of weights, each responsible for learning each target frequency separately. This MTL block allowed us to train multiple tasks in parallel efficiently on a single GPU. We can dynamically tweak our MTL model for any number of tasks, which is potentially suitable for other MTL applications.</p>
-
-<h2 id="conclusion">Conclusion</h2>
-
-<p>Traditionally, studies on steady-state visual-evoked potential (SSVEP) were focused on detecting the target stimulating frequency in the foveal while the other flicking stimuli are regarded as interference. Our study presented an end-to-end multi-task learning approach to detect the responses from the peripheral vision. Furthermore, we designed multi-task learning (MTL) block that learns multiple tasks in parallel efficiently, and we can dynamically tweak our MTL model to the number of tasks.</p>
-
-<p>Our results show that our MTL model can perform in single target SSVEP classification, which could be potentially useful in other SSVEP applications and studies. We observed that the MTL approach is able to learn each target frequency separately, which allowed us to yield a map of the patient’s visible field of vision.</p>
-
-<p>In view of recent events during disease outbreak and pandemics where non-essential hospital appointments are recommended to be kept to a minimum, this assessment method can reduce the number of tests needed, thus minimizing any unnecessary or additional tests. In essence, this study enables our future work to potentially assess glaucoma patients’ visual field to detect peripheral vision loss. To improve the reliability of the assessment results, utilizing SSVEP could eliminate a patient’s ability to carry out the procedure and variability of the patient’s mental state. Assessment time could be cut down by detecting multiple SSVEP targets at once and generating a visual response map. Our approach could be potentially suitable for providing a rapid point-of-care diagnostics for glaucoma patients.</p>
-
-<h2 id="citation">Citation</h2>
-
-<p>If you use the model in your research and found it helpful, please cite the following paper:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pending...
-</code></pre></div></div>
+<ul>
+  <li>Unity Platform - <a href="https://unity.com/">Download</a></li>
+  <li>Unity Version: 2018.4.26f1</li>
+  <li><a href="https://github.com/Unity-Technologies/ml-agents">Unity ML-Agents Toolkit</a></li>
+</ul>
 
 <h2 id="codes">Codes</h2>
 
-<h4 id="model-1">Model</h4>
+<p>The source code can be found in the <a href="https://github.com/jinglescode/unity-ml-agents-turret-defense/tree/ml-agents">ml-agents branch</a>.</p>
 
-<script src="https://gist.github.com/jinglescode/b99c0c3c31af5c217c6305cacb7e16b0.js"></script>
+<h2 id="gameplay">Gameplay</h2>
 
-<h4 id="experiment">Experiment</h4>
+<h4 id="easy-scenario">Easy scenario</h4>
 
-<script src="https://gist.github.com/jinglescode/3d74fe165dee44e2f794e56ce0a2a958.js"></script>
+<p>This scenario is where there are fixed spawn points for units, where the friendly and enemy spawn points are swapped at a random interval. Here we test the effects of delayed gratification where the agents are required to save ten friendly units from getting the reward. As this scenario is easy enough, the performance is astounding, with an almost 99% win rate. Out of 1000 episodes, there are five losses, all of which only happened in the first episode.</p>
 
+<p>This scenario is particularly important as it proves that the agent was able to distinguish between friendly and enemy units and was able to prioritize shooting nearer enemy units first. With these results, we are ready to challenge our agent to a slightly more difficult scenario.</p>
+
+<p>Watch a snippet of the gameplay, might take awhile to load:</p>
+
+<p><img src="public/img/easy-scenario.gif" alt="easy" /></p>
+
+<h4 id="normal-scenario">Normal scenario</h4>
+
+<p>In this scenario, units are spawned randomly at a specified distance at a specified time interval. Instead of having the same movement speed for both friendly and enemy, we made the enemy faster. This gives a good challenge for our agent.</p>
+
+<p>In most cases, where the agent failed, the enemy is behind a friendly unit, and as the enemy moves faster than the friendly unit, this would result in certain failure. We also notice that the rotation speed has limited the agent’s performance, as turning towards an incoming unit from behind, especially enemy units that sneak behind a friendly unit; this would result in a lost episode. Also, in many cases, enemy units are too close to a friendly unit. As a result, shooting friendly units caused the agent to lose the match. One possible way to improve is to fine-tune the size of ray perception and the ray cast.</p>
+
+<p>Watch a snippet of the gameplay, might take awhile to load:</p>
+
+<p><img src="public/img/normal-scenario.gif" alt="norm" /></p>
+
+<h4 id="advanced-scenario">Advanced scenario</h4>
+
+<p>As in our design, enemy units are already moving faster than friendly units, with advanced enemy units, their movement speed is much more unpredictable. They could move forward faster and move left or right, hiding behind friendly units. This gives a great challenge for our agent; the winning rate is approximate 55\%. Like the normal scenario, there are many cases when the enemy units are hiding behind friendly units; this caused the enemy units to be too near before the agent had the chance to shoot it. At times, the enemy units were moving too close to friendly units. As a result, friendly fire happened, and the match was lost.</p>
+
+<p>Watch a snippet of the gameplay, might take awhile to load:</p>
+
+<p><img src="public/img/advanced-scenario.gif" alt="hard" /></p>
+
+<h4 id="advanced-scenario-with-power-ups">Advanced scenario with power-ups</h4>
+
+<p>In this scenario, we are interested in seeing the effects on power-ups to see if it improves the agent’s performance. The agent gained three times on rotation speed boost and no cooldown on firing by shooting on the power-up. Unfortunately, the performance did not improve. We hypothesize that the agent did not manage to associate shooting the power-ups with the rewards gain as we did not assign any rewards for hitting the power-ups. Therefore, we attempted to assign a small reward for shooting the power-ups. Unfortunately, we did not see any improvements as well.</p>
+
+<p>Watch a snippet of the gameplay, might take awhile to load:</p>
+
+<p><img src="public/img/advanced-scenario-power-ups.gif" alt="hard-powerup" /></p>
 
                 </div>
             </div>
         </div>
     </main>
+
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-xs-12 col-md-12 col-md-offset-1">
+            <p class="text-muted text-left ">
+              <a href="https://jinglescode.github.io/">About the Author</a> | <a href="https://github.com/jinglescode/unity-ml-agents-turret-defense">Hosted on GitHub</a>
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+
+  </div><!-- .main.container -->
+
+  </body>
+</html>
