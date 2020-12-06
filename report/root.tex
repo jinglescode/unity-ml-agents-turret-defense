@@ -14,7 +14,7 @@
 T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \begin{document}
 
-\title{Reinforcement Learning on Unity Machine Learning Agents Toolkit}
+\title{Designing a Reinforcement Learning Environment in Unity Machine Learning Agents Toolkit}
 
 \author{\IEEEauthorblockN{\textbf{Hong Jing Khok}}
 School of Computer Science and Engineering, Nanyang Technological University, Singapore
@@ -23,11 +23,11 @@ School of Computer Science and Engineering, Nanyang Technological University, Si
 \maketitle
 
 \begin{abstract}
-This is a report for an assignment for the course, Artificial Intelligence in Game Design (DM6127). This report will describe the mechanics of the game and its design and present the thought process of designing a reinforcement learning agent capable of playing this game. We explore scenarios on various difficulties and compare our agent's performance. Iteratively, we developed and evaluated each hypothesis; and recorded its results. The source code and videos of the gameplay are available on a companion website.
+In this study, we will describe the mechanics of the game and its design and present the thought process of designing a reinforcement learning agent capable of playing this game. We explore scenarios on various difficulties and compare our agent's performance. Iteratively, we developed and evaluated each hypothesis; and recorded its results. The source code and videos of the gameplay are available on a companion website.
 \end{abstract}
 
 \begin{IEEEkeywords}
-Reinforcement Learning, Unity
+Reinforcement Learning, Unity, MLAgents
 \end{IEEEkeywords}
 
 \section{Introduction}
@@ -96,7 +96,7 @@ We added Unity's Textmesh component to display the number of games the agents ha
 
 Since the turret rotating speed limits its capability, we have provided power-ups to boost rotation speed. The turret gets a temporary boost by shooting a power-up, increasing its rotation by three times for ten seconds. From the reinforcement learning perceptive, we are interested to find out if the agent will go for these power-ups.
 
-Based on the assignment description, both friendly and enemy units has the same movement speed of \textit{2} units. But to make the game more interesting, we set our enemy's movement speed to \textit{3} units in our game design while friendly units are moving at \textit{2} units. We did this right from the start and tested it on the easiest mode. By doing so, it not only made the game more challenging for the agent, but it also allows us to test the agent's priority on shooting enemy units as quickly as possible.
+We can predefine both friendly and enemy units to have the same movement speed of \textit{2} units. But to make the game more interesting, we set our enemy's movement speed to \textit{3} units in our game design while friendly units are moving at \textit{2} units. We did this right from the start and tested it on the easiest mode. By doing so, it not only made the game more challenging for the agent, but it also allows us to test the agent's priority on shooting enemy units as quickly as possible.
 
 We also introduced advanced enemy in the advanced difficulty, where it would change its direction instead of moving straight into the turret base. Because of its randomness, these enemy units might periodically move faster. These advanced enemies will provide a challenge for the turret agent.
 
@@ -360,7 +360,7 @@ This scenario is particularly important as it proves that the agent was able to 
 
 \subsection{Performance of the AI on the normal scenario}
 
-This scenario is based on the assignment description and requirements, where units are spawned randomly at a specified distance at a specified time interval. Instead of having the same movement speed for both friendly and enemy, we made the enemy faster. This gives a good challenge for our agent. There are so many iterations before the agent manages to learn to play this scenario, see the \textit{Development and Testing Journey} section.
+In this scenario, units are spawned randomly at a specified distance at a specified time interval. Instead of having the same movement speed for both friendly and enemy, we made the enemy faster. This gives a good challenge for our agent. There are so many iterations before the agent manages to learn to play this scenario, see the \textit{Development and Testing Journey} section.
 
 Out of the 1000 episodes, our agent won approximately 83\% of the time. Fig.~\ref{scene_gameplay_random_spawn} shows a snapshot of the gameplay. Visit the companion website\footnote{\href{https://github.com/jinglescode/unity-ml-agents-turret-defense}{github.com/jinglescode/unity-ml-agents-turret-defense}} to watch the gameplay video and source code. 
 
@@ -376,8 +376,8 @@ In this scenario, we are interested in seeing the effects on power-ups to see if
 
 \section{Conclusion}
 
-This assignment has allowed us to experience and experiment with designing reinforcement learning to perform a task. It is interesting to see that, without handcrafting any rules for the agents, it figures out the game's mechanism by exploring the game. We can see that there are many components to a successful reinforcement learning agent, with a functioning game mechanism, proper usage of observation and action space, and well-designed rewards systems; these contribute largely to its success. 
+This study has allowed us to experience and experiment with designing reinforcement learning to perform a task. It is interesting to see that, without handcrafting any rules for the agents, it figures out the game's mechanism by exploring the game. We can see that there are many components to a successful reinforcement learning agent, with a functioning game mechanism, proper usage of observation and action space, and well-designed rewards systems; these contribute largely to its success.
 
-For additional materials and assets used in this report can be found on Github (\href{https://github.com/jinglescode/unity-ml-agents-turret-defense}{github.com/jinglescode/unity-ml-agents-turret-defense}). The source code can be found in the ml-agents branch (\href{https://github.com/jinglescode/unity-ml-agents-turret-defense/tree/ml-agents}{github.com/jinglescode/unity-ml-agents-turret-defense/tree/ml-agents}).
+For additional materials and assets used in this study can be found on Github (\href{https://github.com/jinglescode/unity-ml-agents-turret-defense}{github.com/jinglescode/unity-ml-agents-turret-defense}). The source code can be found in the ml-agents branch (\href{https://github.com/jinglescode/unity-ml-agents-turret-defense/tree/ml-agents}{github.com/jinglescode/unity-ml-agents-turret-defense/tree/ml-agents}).
 
 \end{document}

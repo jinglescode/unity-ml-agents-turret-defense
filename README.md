@@ -1,20 +1,22 @@
 # Reinforcement Learning on Unity Machine Learning Agents Toolkit
 
-This is a report for an assignment for the course, Artificial Intelligence in Game Design (DM6127). This report will describe the mechanics of the game and its design and present the thought process of designing a reinforcement learning agent capable of playing this game. We explore scenarios on various difficulties and compare our agent's performance. Iteratively, we developed and evaluated each hypothesis; and recorded its results.
+In this study, we will describe the mechanics of the game and its design and present the thought process of designing a reinforcement learning agent capable of playing this game. We explore scenarios on various difficulties and compare our agent's performance. Iteratively, we developed and evaluated each hypothesis; and recorded its results.
 
 Our goal is to build a turret game where the player can shoot enemy units while allowing friendly units to enter. We will train a reinforcement learning agent to play as the turret, where its goal is to allow ten friendly units to enter the base, and loses if an enemy unit has entered the base or if two friendly units were shot.
 
-## Requirements
+## Source code
+
+The source code can be found in the [ml-agents branch](https://github.com/jinglescode/unity-ml-agents-turret-defense/tree/ml-agents).
+
+### Requirements
 
 - Unity Platform - [Download](https://unity.com/)
 - Unity Version: 2018.4.26f1
 - [Unity ML-Agents Toolkit](https://github.com/Unity-Technologies/ml-agents)
 
-## Codes
-
-The source code can be found in the [ml-agents branch](https://github.com/jinglescode/unity-ml-agents-turret-defense/tree/ml-agents).
-
 ## Gameplay
+
+We explore scenarios on various difficulties and compare our agent's performance.
 
 #### Easy scenario
 
