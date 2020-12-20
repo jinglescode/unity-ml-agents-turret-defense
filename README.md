@@ -16,7 +16,7 @@ The source code can be found in the [ml-agents branch](https://github.com/jingle
 
 ## Citation
 
-If you use our code in your project or research, or found this repo helpful, please cite our IEEE SMC paper:
+If you use our code in your project or research, or found this repo helpful, please cite our [paper](https://github.com/jinglescode/unity-ml-agents-turret-defense/blob/master/report.pdf)
 
 ```
 @article{khok2020reinforcement,
