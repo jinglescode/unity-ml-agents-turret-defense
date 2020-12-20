@@ -17,6 +17,20 @@ Our goal is to build a turret game where the player can shoot enemy units while 
 
 The source code can be found in the [ml-agents branch](https://github.com/jinglescode/unity-ml-agents-turret-defense/tree/ml-agents).
 
+## Citation
+
+If you use our code in your project or research, or found this repo helpful, please cite our IEEE SMC paper:
+
+```
+@article{khok2020reinforcement,
+  title={Reinforcement Learning on Unity Machine Learning Agents Toolkit},
+  author={Khok, Hong Jing},
+  journal={jinglescode.github.io},
+  url={https://jinglescode.github.io/unity-ml-agents-turret-defense/},
+  year={2020}
+}
+```
+
 ## Gameplay
 
 #### Easy scenario
