@@ -14,6 +14,20 @@ The source code can be found in the [ml-agents branch](https://github.com/jingle
 - Unity Version: 2018.4.26f1
 - [Unity ML-Agents Toolkit](https://github.com/Unity-Technologies/ml-agents)
 
+## Citation
+
+If you use our code in your project or research, or found this repo helpful, please cite our IEEE SMC paper:
+
+```
+@article{khok2020reinforcement,
+  title={Reinforcement Learning on Unity Machine Learning Agents Toolkit},
+  author={Khok, Hong Jing},
+  journal={jinglescode.github.io},
+  url={https://jinglescode.github.io/unity-ml-agents-turret-defense/},
+  year={2020}
+}
+```
+
 ## Gameplay
 
 We explore scenarios on various difficulties and compare our agent's performance.
@@ -54,3 +68,4 @@ In this scenario, we are interested in seeing the effects on power-ups to see if
 Watch a snippet of the gameplay, might take awhile to load:
 
 ![hard-powerup](https://user-images.githubusercontent.com/1694368/95072010-2334e280-073d-11eb-9e6b-b257880106a1.gif)
+
